@@ -7,23 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A10B7588257203C900077FD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A10B7587257203C900077FD9 /* Assets.xcassets */; };
 		A1DAC17925714235004300F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DAC17825714235004300F1 /* AppDelegate.swift */; };
 		A1DAC17B25714235004300F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DAC17A25714235004300F1 /* SceneDelegate.swift */; };
 		A1DAC17D25714235004300F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DAC17C25714235004300F1 /* ViewController.swift */; };
 		A1DAC18025714235004300F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1DAC17E25714235004300F1 /* Main.storyboard */; };
-		A1DAC18225714239004300F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1DAC18125714239004300F1 /* Assets.xcassets */; };
 		A1DAC18525714239004300F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1DAC18325714239004300F1 /* LaunchScreen.storyboard */; };
+		A1DAC1932571432A004300F1 /* AnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DAC1922571432A004300F1 /* AnswerViewController.swift */; };
+		A1DAC1962571471C004300F1 /* WhoAmI.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1DAC1952571471C004300F1 /* WhoAmI.mp3 */; };
+		A1DAC1992571551C004300F1 /* Answer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1DAC1982571551C004300F1 /* Answer.mp3 */; };
+		A1DAC19C2571EDC8004300F1 /* DrawPicture.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DAC19B2571EDC8004300F1 /* DrawPicture.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A10B7587257203C900077FD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1DAC17525714235004300F1 /* AnimationWhoAmI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationWhoAmI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1DAC17825714235004300F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1DAC17A25714235004300F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A1DAC17C25714235004300F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A1DAC17F25714235004300F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A1DAC18125714239004300F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1DAC18425714239004300F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1DAC18625714239004300F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1DAC1922571432A004300F1 /* AnswerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerViewController.swift; sourceTree = "<group>"; };
+		A1DAC1952571471C004300F1 /* WhoAmI.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = WhoAmI.mp3; sourceTree = "<group>"; };
+		A1DAC1982571551C004300F1 /* Answer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Answer.mp3; sourceTree = "<group>"; };
+		A1DAC19B2571EDC8004300F1 /* DrawPicture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawPicture.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,11 +64,15 @@
 		A1DAC17725714235004300F1 /* AnimationWhoAmI */ = {
 			isa = PBXGroup;
 			children = (
+				A1DAC1952571471C004300F1 /* WhoAmI.mp3 */,
+				A1DAC1982571551C004300F1 /* Answer.mp3 */,
 				A1DAC17825714235004300F1 /* AppDelegate.swift */,
 				A1DAC17A25714235004300F1 /* SceneDelegate.swift */,
+				A1DAC19B2571EDC8004300F1 /* DrawPicture.swift */,
+				A1DAC1922571432A004300F1 /* AnswerViewController.swift */,
 				A1DAC17C25714235004300F1 /* ViewController.swift */,
 				A1DAC17E25714235004300F1 /* Main.storyboard */,
-				A1DAC18125714239004300F1 /* Assets.xcassets */,
+				A10B7587257203C900077FD9 /* Assets.xcassets */,
 				A1DAC18325714239004300F1 /* LaunchScreen.storyboard */,
 				A1DAC18625714239004300F1 /* Info.plist */,
 			);
@@ -125,8 +137,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1DAC18525714239004300F1 /* LaunchScreen.storyboard in Resources */,
-				A1DAC18225714239004300F1 /* Assets.xcassets in Resources */,
+				A1DAC1962571471C004300F1 /* WhoAmI.mp3 in Resources */,
 				A1DAC18025714235004300F1 /* Main.storyboard in Resources */,
+				A1DAC1992571551C004300F1 /* Answer.mp3 in Resources */,
+				A10B7588257203C900077FD9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +151,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1DAC19C2571EDC8004300F1 /* DrawPicture.swift in Sources */,
+				A1DAC1932571432A004300F1 /* AnswerViewController.swift in Sources */,
 				A1DAC17D25714235004300F1 /* ViewController.swift in Sources */,
 				A1DAC17925714235004300F1 /* AppDelegate.swift in Sources */,
 				A1DAC17B25714235004300F1 /* SceneDelegate.swift in Sources */,
@@ -289,6 +305,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4SWYU5C65V;
 				INFOPLIST_FILE = AnimationWhoAmI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +325,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4SWYU5C65V;
 				INFOPLIST_FILE = AnimationWhoAmI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
