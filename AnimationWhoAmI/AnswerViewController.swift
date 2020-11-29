@@ -94,7 +94,7 @@ class AnswerViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //whoAmILabel.isHidden = true
+        whoAmILabel.isHidden = true
         pokemonLogo.image = UIImage(named:"pokemonLogo")
         pokemonLogo.contentMode = .scaleToFill
 
