@@ -134,10 +134,12 @@ class AnswerViewController: UIViewController {
         player.replaceCurrentItem(with: playerItem)
         player.play()
 
+
         
     }
         
     override func viewDidDisappear(_ animated: Bool) {
+        
          if self.timer != nil {
               self.timer?.invalidate()
          }

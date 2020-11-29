@@ -51,5 +51,8 @@ class ViewController: UIViewController {
             player.play()
         }
     }
+    override func viewDidDisappear(_ animated: Bool) {
+        player.pause()
+    }
 }
 
