@@ -67,7 +67,7 @@ class AnswerViewController: UIViewController {
     
     @objc func animator6(){
         self.maskView.alpha = 1
-        let animator6 = UIViewPropertyAnimator(duration: 2.0, curve: .linear){
+        let animator6 = UIViewPropertyAnimator(duration: 2.5, curve: .linear){
             self.maskView.frame = CGRect(x: 15, y: 410, width: 350, height: 350)
         }
         animator6.startAnimation()
@@ -87,14 +87,14 @@ class AnswerViewController: UIViewController {
         //rotation animation
         maskView.mask = nil
         maskView.removeFromSuperview()
-        let xiaozhi = drawPicture.createAnswerUIView(moveX: -30, moveY: 30, rotateDegree: 0, scale: 0.9)
+        let xiaozhi = drawPicture.createAnswerUIView(moveX: -30, moveY: 37, rotateDegree: 0, scale: 0.9)
         showView.addSubview(xiaozhi)
         whoAmILabel.isHidden = false
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        whoAmILabel.isHidden = true
+        //whoAmILabel.isHidden = true
         pokemonLogo.image = UIImage(named:"pokemonLogo")
         pokemonLogo.contentMode = .scaleToFill
 

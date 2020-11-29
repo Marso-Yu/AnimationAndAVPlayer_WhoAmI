@@ -36,27 +36,10 @@ class ViewController: UIViewController {
         
         let maskView = UIView(frame: CGRect(x: -30, y: 40, width: 350, height: 350))
 
-        //maskView.frame.size = CGSize(width: 300, height: 300)
         maskView.backgroundColor = .black
         let xiaozhi = drawPicture.createAnswerUIView(moveX: 0, moveY: 0, rotateDegree: 0, scale: 0.9)
         maskView.mask = xiaozhi
         showView.addSubview(maskView)
-        
-        
-        // Do any additional setup after loading the view.
-//        let mp3FileUrl = Bundle.main.url(forResource: "WhoAmI", withExtension: "mp3")
-//        if let mp3FileUrl = mp3FileUrl{
-//            let playerItem = AVPlayerItem(url:mp3FileUrl)
-//            player.replaceCurrentItem(with: playerItem)
-//            player.play()
-        
-    
-//        if let mp3FileUrl = Bundle.main.url(forResource: "WhoAmI", withExtension: "mp3")
-//        {
-//            let playerItem = AVPlayerItem(url:mp3FileUrl)
-//            player.replaceCurrentItem(with: playerItem)
-//            player.play()
-//        }
             
     }
     override func viewDidAppear(_ animated: Bool) {
